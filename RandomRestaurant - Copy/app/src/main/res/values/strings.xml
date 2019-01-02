@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Random Restaurant</string>
+
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="MapButton">Map Selection</string>
+    <string name="ListButton">List Selection</string>
+    <string name="HomeTextView">Choose Selection</string>
+    <string name="title_activity_map">Map</string>
+
+
+</resources>

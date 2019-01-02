@@ -1,0 +1,37 @@
+<FrameLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="470dp"
+        android:layout_height="512dp"
+        tools:context="com.example.kyler.randrest.MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_gravity="bottom"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/idBtnRestaurants"
+            android:layout_width="181dp"
+            android:layout_height="111dp"
+            android:text="Restaurants"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:id="@+id/btnToGoogleMaps"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:text="Take me there!"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

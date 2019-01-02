@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kylew.randomrestaurant.HomePageActivity">
+
+    <Button
+        android:id="@+id/Mapbutton"
+        android:layout_width="141dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_marginLeft="0dp"
+        android:text="@string/MapButton"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/ListButton"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/ListButton"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="134dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_begin="213dp"
+        android:orientation="horizontal" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        app:layout_constraintGuide_begin="242dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/HomePagetextView"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_marginLeft="0dp"
+        android:text="@string/HomeTextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline4"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline5"
+        app:layout_constraintGuide_begin="86dp"
+        android:orientation="horizontal" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline4"
+        app:layout_constraintGuide_begin="134dp"
+        android:orientation="vertical" />
+</android.support.constraint.ConstraintLayout>
